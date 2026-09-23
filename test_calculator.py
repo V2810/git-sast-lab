@@ -1,7 +1,7 @@
 """Unit tests for the Simple Calculator Application."""
 
 import unittest
-from calculator import add, subtract, multiply, divide, modulus
+from calculator import add, subtract, multiply, divide, modulus, power
 
 
 class TestCalculator(unittest.TestCase):
@@ -44,6 +44,12 @@ class TestCalculator(unittest.TestCase):
         """Test modulus by zero raises ValueError."""
         with self.assertRaises(ValueError):
             modulus(10, 0)
+
+    def test_power(self):
+        """Test exponentiation function."""
+        self.assertEqual(power(2, 3), 8)
+        self.assertEqual(power(5, 0), 1)
+        self.assertEqual(power(3, 2), 9)
 
 
 if __name__ == "__main__":

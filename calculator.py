@@ -30,6 +30,11 @@ def modulus(a, b):
     return a % b
 
 
+def power(a, b):
+    """Return a raised to the power of b."""
+    return a ** b
+
+
 if __name__ == "__main__":
     print("Simple Calculator")
     print(f"Addition: {add(10, 5)}")
@@ -37,3 +42,4 @@ if __name__ == "__main__":
     print(f"Multiplication: {multiply(10, 5)}")
     print(f"Division: {divide(10, 5)}")
     print(f"Modulus: {modulus(11, 5)}")
+    print(f"Power: {power(2, 3)}")
