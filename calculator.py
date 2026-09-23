@@ -31,9 +31,13 @@ def modulus(a, b):
 
 
 if __name__ == "__main__":
-    print("Simple Calculator")
-    print(f"Addition: {add(10, 5)}")
-    print(f"Subtraction: {subtract(10, 5)}")
-    print(f"Multiplication: {multiply(10, 5)}")
-    print(f"Division: {divide(10, 5)}")
-    print(f"Modulus: {modulus(11, 5)}")
+    print("=" * 30)
+    print("   Simple Calculator")
+    print("=" * 30)
+    print(f"  Addition:       {add(10, 5)}")
+    print(f"  Subtraction:    {subtract(10, 5)}")
+    print(f"  Multiplication: {multiply(10, 5)}")
+    print(f"  Division:       {divide(10, 5)}")
+    print(f"  Modulus:        {modulus(11, 5)}")
+    print("=" * 30)
+
